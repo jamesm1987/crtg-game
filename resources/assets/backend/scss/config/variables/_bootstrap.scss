@@ -1,0 +1,16 @@
+//Grid breakpoints
+$grid-breakpoints: (
+    xs: 0,
+    sm: 672px,
+    md: 896px,
+    lg: 1158px,
+    xl: 1400px
+);
+
+//Container widths
+$container-max-widths: (
+    sm: 636px,
+    md: 848px,
+    lg: 1126px,
+    xl: 1340px
+);

@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+$dir = __DIR__ . '/web';
+
+require $dir . '/backend.php'; 
+
+require $dir . '/frontend.php'; 
+
+//Reset form view
+Route::get('reset-password/{token}', [
+    'uses' => 'Frontend\Password\Reset\Form\Controller@view',
+])->name('password.reset');

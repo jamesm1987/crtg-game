@@ -36,6 +36,10 @@ return [
     */
 
     'guards' => [
+        'backend' => [
+            'driver' => 'session',
+            'provider' => 'users'
+        ],
         'web' => [
             'driver' => 'session',
             'provider' => 'users',

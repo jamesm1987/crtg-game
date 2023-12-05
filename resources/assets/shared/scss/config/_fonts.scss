@@ -1,0 +1,44 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:    local('Roboto-Light'), local('Roboto Light'),
+            url('#{$fontDir}/Roboto-Light.woff2') format('woff2'),
+            url('#{$fontDir}/Roboto-Light.woff') format('woff'),
+            url('#{$fontDir}/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:    local('Roboto-Bold'), local('Roboto Bold'),
+            url('#{$fontDir}/Roboto-Bold.woff2') format('woff2'),
+            url('#{$fontDir}/Roboto-Bold.woff') format('woff'),
+            url('#{$fontDir}/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:    local('Roboto-Medium'), local('Roboto Medium'),
+            url('#{$fontDir}/Roboto-Medium.woff2') format('woff2'),
+            url('#{$fontDir}/Roboto-Medium.woff') format('woff'),
+            url('#{$fontDir}/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:    local('Roboto-Regular'), local('Roboto Regular'),
+            url('#{$fontDir}/Roboto-Regular.woff2') format('woff2'),
+            url('#{$fontDir}/Roboto-Regular.woff') format('woff'),
+            url('#{$fontDir}/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,47 @@
+/**
+ * File Paths
+*/
+    
+$fontDir: "/assets/shared/fonts/";
+
+/**
+ * Colours
+*/
+
+$alabaster:     #FAFAFA;
+$aluminium:     #858c94;
+$blue-bayoux:   #4C6172;
+$carousel-pink: #F7DAE9;
+$dark-grey:     #393B3D;
+$east-bay:      #425164;
+$emperor:       #505050;
+$faded-blue:    #B8CDD4;
+$green:         #41ad49;
+$hibiscus:      #B02A6D;
+$jungle-mist:   #B3CED5;
+$light-grey:    #F9F9F9;
+$iron:          #DEE0E3;
+$mercury:       #E9E9E9;
+$nevada:        #6A7279;
+$onahau:        #c8e7ef;
+$pink:          #E2378C;
+$river-bed:     #445160;
+$whisper:       #F4F3F9;
+
+/**
+ * Bootstrap Overrides
+*/
+
+
+$primary: $pink;
+$success: #00B137;
+
+
+$border-radius: 1rem;
+$btn-border-radius: 0;
+$btn-border-radius-lg: 0;
+$custom-select-bg-size: 15px;
+$custom-select-border-radius: 0;
+$font-family-base: 'Roboto';
+$input-border-radius: 1rem;
+$btn-border-radius: 1rem;
